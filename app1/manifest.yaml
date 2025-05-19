@@ -28,7 +28,7 @@ spec:
   selector:
     app: app1
   ports:
-    protocol: TCP
+  - protocol: TCP
     port: 80 # Service port
     targetPort: 80
   
